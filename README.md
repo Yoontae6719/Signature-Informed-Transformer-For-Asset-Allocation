@@ -19,13 +19,15 @@ bash ./runfile/test.sh
 ```
 
 ### Dataset
-- You can download via GOOGLE DRIVE
+- clone git and then run `0_get_sig_data_all.py`
 
 ### 📚 Citation
 
 ```bibtex
 will be writen
 ```
+
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/b0f66e02-04e4-4ef2-8b2c-39e6eead7210" />
 
 
 Built by [Anonymous](https://yoontae6719.github.io/) - Copyright (c) 2025 Anonymous
