@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 
 ### How to run?
-Download `full_dataset.csv` from Google Drive and place it in the `asset_data` folder. Then run `0_get_sig_data_all.py`; it will create a folder such as `signature_cache_6020`.
+Run `0_get_sig_data_all.py`; it will create a folder such as `signature_cache_6020`.
 
 ```
 bash ./runfile/test.sh
