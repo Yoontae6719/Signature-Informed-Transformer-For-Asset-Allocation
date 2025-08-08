@@ -1,0 +1,13 @@
+einops==0.8.0
+matplotlib==3.10.0
+nltk==3.7
+numpy==1.26.4
+pandas==2.2.2
+pywt
+scipy==1.14.1
+sklearn
+statsmodels==0.14.0
+sympy==1.13.1
+torch==2.6.0a0+ecf3bae40a.nv25.1
+tqdm==4.67.1
+finance-datareader==0.9.96
