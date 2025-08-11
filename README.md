@@ -82,8 +82,6 @@ which trains three configurations sequentially.  Training results and test perfo
 | `--data_pool`      | Number of assets to include in the portfolio (e.g., 30, 40, 50).                                                                         |
 | `--window_size`    | Length of the historical window used to compute path signatures.  The script `0_get_sig_data_all.py` uses a default of 60.               |
 | `--horizon`        | Prediction horizon (in trading days).  Default is 20.                                                                                    |
-| `--sig_input_dim`  | Degree of the signature features; this controls the dimension of `x_sigs` input.                                                         |
-| `--cross_sig_dim`  | Degree of the cross‑signature features (controls `cross_sigs` input).                                                                    |
 | `--temperature`    | Softmax temperature used when converting predicted returns into portfolio weights; higher temperature produces more uniform allocations. |
 | `--trade_cost_bps` | Transaction cost in basis points (e.g., 0.05 % = 0.5 bps).                                                                               |
 
