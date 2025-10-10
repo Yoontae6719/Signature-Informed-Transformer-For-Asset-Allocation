@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from torch.utils.data import Dataset
 from sklearn.preprocessing import StandardScaler
-from utils.timefeatures import time_features   # ★ NEW
+from utils.timefeatures import time_features   
 
 
 
@@ -121,9 +121,6 @@ class Dataset_Sig(Dataset):
         return self._build_sample(int(self.valid_idx[idx]))
 
 
-# =================================================================
-# PrecomputedSigDataset  (date_feats 즉석 생성)  ───────────────────
-# =================================================================
 class PrecomputedSigDataset(Dataset):
     def __init__(self, cache_dir: str, split: str):
         print("USE PrecomputedSigDataset")
