@@ -31,7 +31,7 @@ pip install -r requirements.txt  # installs PyTorch, pandas, numpy, tqdm, joblib
 
 1. **Obtain the dataset.**  A sample `full_dataset.csv` is provided under `asset_data/`.  If you wish to experiment with your own assets, create a CSV with a `Date` column and one column per asset containing daily returns or prices.  Missing values should be forward‑filled.
 
-2. **Generate signatures (recommended).**  Running signature extraction ahead of time speeds up training.  Use:
+2. **Generate signatures (MUST).**  Running signature extraction ahead of time speeds up training.  Use:
 
 ```bash
    # create signature caches for pools of 30, 40 and 50 assets with window=60 and horizon=20
@@ -39,6 +39,7 @@ pip install -r requirements.txt  # installs PyTorch, pandas, numpy, tqdm, joblib
 ```
 
    The script iterates over `DATA_POOLS = [40, 50, 30]` and saves pre‑computed training, validation and test tensors to `signature_cache_6020/pool_{n}`.  If you change the `--window_size` and `--horizon` values in `run.py`, re‑generate the cache accordingly.
+   you can download pre-processed dataset [Please click this one](https://drive.google.com/drive/folders/1ciaXLbbr-lD3XeTo2d029Q0L-tupVM3v?usp=sharing)
 
 ## Training and evaluation
 
